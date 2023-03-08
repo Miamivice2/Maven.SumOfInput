@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Created by iyasuwatts on 10/17/17.
  */
@@ -16,7 +18,11 @@ public class Main {
     // do this one and the lab is complete. really.
     // return the sum of 0 to n... if n == 3, the result should be 6
     int sumOfNumbers(int n) {
-        return 0;
+        int numberToBeAddedToN = 0;
+        for(int counter = 0; counter < n; counter++){
+           numberToBeAddedToN = numberToBeAddedToN + counter;
+        }
+            return numberToBeAddedToN;
     }
     
     
